@@ -1,0 +1,5 @@
+.terraform
+/policy/
+/plan.json
+/regula_output.json
+*.tfplan
