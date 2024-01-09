@@ -28,7 +28,7 @@ to look up the commands and run them on your own.
 
 ```bash
 make conftest-prepare
-amke conftest -build-var aws_profile=dev
+make conftest -build-var aws_profile=dev
 make cleanup
 ```
 

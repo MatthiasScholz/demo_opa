@@ -1,0 +1,20 @@
+---
+version: '3'
+
+services:
+  regula:
+    image: fugue/regula
+    networks:
+      - net-regula
+    volumes:
+      - ./example:/workspace
+    environment:
+      - AWS_REGION
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+      - AWS_SESSION_TOKEN
+      - AWS_SECURITY_TOKEN
+
+networks:
+  net-regula:
+    external: false
