@@ -74,3 +74,7 @@ the used tools, you can run:
 ```bash
 make cleanup-prerequistes
 ```
+
+## References
+
+- [More OPA terraform examples](https://github.com/kmcquade/opa-terraform-exceptions-example)
